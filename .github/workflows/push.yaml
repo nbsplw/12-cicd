@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: farkat/parcel
+          images: farkat/parcel-image
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
